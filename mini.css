@@ -1,0 +1,250 @@
+body{
+    overflow-x: hidden;
+}
+ 
+        /* *********************
+                HEADER
+        *********************  */
+
+
+.navi{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 5;
+    padding: 20px 50px;
+    background-color: rgb(4,11,20);    
+}
+.nav-item{
+    line-height: 2.5;
+    padding-top: 5px;
+}
+.nav-item i{
+    font-size: 20px;
+}
+.nav-item i:hover{
+    color: rgb(0,166,235);
+}
+.nav-item a{
+    color: grey;
+}
+.nav-item a:hover{
+    color: white;
+}
+.navbar-brand img{
+   border: 5px solid rgb(44,47,63);
+   border-radius: 50%;
+}
+.alex{
+    color: white;
+}
+.sides i{
+    padding: 10px;
+   border-radius: 50%; 
+   background-color: rgb(33,36,49);
+   color: white;
+   margin: 2px;
+}
+.sides i:hover{
+    background-color: rgb(0,166,235);
+}
+.top_img{
+    background-image: url(img/home1\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    filter: grayscale(25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.top_img h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+        /* *************************
+                    ABOUT 
+                    ************************  */
+ .right{
+     padding-left: 330px;
+ }
+ .information{
+     display: flex;
+    }
+    
+          /* **********************
+              About--Skills
+          ********************** */
+    .bg_color{
+        background-color: rgb(245,248,253);
+    }
+
+    .right .space{
+        word-spacing: 400px;
+        line-height: 2;
+    }
+    .right .space_css{
+        word-spacing: 425px;
+        line-height: 2;
+    }
+    .right .space_java{
+        word-spacing: 370px;
+        line-height: 2;
+    }
+    .right .space_php{
+        word-spacing: 425px;
+        line-height: 2;
+    }
+    .right .space_cms{
+        word-spacing: 325px;
+        line-height: 2;
+    }
+    .right .space_photo{
+        word-spacing: 360px;
+        line-height: 2;
+    }
+    
+            /*************************
+                    RESUME
+            ************************/
+
+.fa-smile-o{
+    color: blue;
+    font-size: 55px;
+    padding-left: 20px;
+}
+.bor_left1{
+    border-left: 2px solid rgb(31,82,151);
+    height: 200px;
+
+}
+.bor_left2{
+    border-left: 2px solid rgb(31,82,151);
+    height: 400px;
+
+}
+.bor_right{
+    border-left: 2px solid rgb(31,82,151);
+    height: 680px;
+}
+.bg-light img:hover{
+    opacity: 0.5;
+}
+.icons{
+    margin-top: -40px;
+    word-spacing: 200px;
+    text-align: center;
+    display: flex;
+    color: white;
+    transition: transform 0.5s;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    overflow: hidden;
+}
+.bg-light:hover .icons{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.icons i:nth-child(1){
+    font-size: 30px;
+    border-right: 1px solid rgb(55,179,237);
+    width: 160px;
+    background-color: rgba(29,161,221,0.8);
+    padding: 5px;
+}
+.icons i:nth-child(1):hover{
+   background-color: rgb(0,166,235);
+}
+.icons i:nth-child(2){
+    font-size: 30px;
+    /* border: 1px solid black; */
+    width: 160px;
+    background-color: rgba(29,161,221,0.8);
+    padding: 5px;
+}
+.icons i:nth-child(2):hover{
+    background-color: rgb(0,166,235);
+ }
+
+
+            /* **********************
+                 Portfolio
+            **********************  */
+.center_text{
+    margin-left: 350px;
+    /* border: 1px solid black; */
+    width: 265px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+    color: rgb(27,160,228);
+}
+
+           /* **********************
+                 SERVICES   
+           ********************* */
+
+.circle i{
+  /* border: 1px solid rgb(56, 56, 241); */
+  padding: 15px;
+  font-size: 25px;
+  background-color: rgb(20,157,221);
+  color: white;
+  border-radius: 50%;
+}
+.text_one h5{
+    font-weight: bold;
+}
+.text_one:hover h5{
+   color: rgb(20,157,221);
+}
+.circle:hover i{
+    background-color: white;
+    border: 1px solid rgb(20,157,221);
+    color: rgb(20,157,221);
+}
+
+
+          /* ***********************
+                  CONTACT
+          *********************** */
+
+.box_shadow{
+    box-shadow: 0px 0px 4px lightgray;
+}
+
+
+ .contact_circle{
+     /* border: 1px solid black; */
+     padding: 12px;
+     width: 37px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: rgb(223,243,252);
+     color: rgb(87,185,231);
+ }
+ .contact_circle:hover {
+     background-color: rgb(0,166,235);
+     color: white;
+ }
+.contact_circle i{
+    font-size: 20px;
+}
+
+.height{
+height: 250px;
+}
